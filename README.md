@@ -98,3 +98,15 @@ Submarine CNN installation and manual.
     ```
     $ sudo pip install opencv-contrib-python
     ```
+
+
+
+
+###### Prepare your dataset.
+Inside your train, test and valid directories should be like.
+
+![alt text](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/train_inside.png)
+
+Each directories is contain datasets for each classes.
+For me its contain [nmo, nm1, nm2, nm3, nm4, nm5, nm6, nm7, nm8, nm9, sp17, sp18, sp19] directories,
+it's mean i have 13 classes name nmo, nm1, nm2, nm3, nm4, nm5, nm6, nm7, nm8, nm9, sp17, sp18, sp19.
