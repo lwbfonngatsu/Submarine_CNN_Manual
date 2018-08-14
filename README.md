@@ -3,11 +3,11 @@ Submarine CNN installation and manual.
 
 # You can load trainer scripts now!!!
 ## Models available.
- - VGG16
- - mobileNet
- - ResNet50
- - Inception v3
- - Xception
+ - [VGG16](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/cnn_vgg16.py)
+ - [mobileNet](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/cnn_mobilenet.py)
+ - [ResNet50](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/cnn_resnet50.py)
+ - [Inception v3](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/cnn_incention_v3.py)
+ - [Xception](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/cnn_xception.py)
 
 ## Train a CNN Model.
 1. Installation for Windows
