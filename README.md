@@ -53,7 +53,48 @@ Submarine CNN installation and manual.
     (targetDirectory)$ pip install --ignore-installed --upgrade TF_PYTHON_URL
     ```
     where TF_PYTHON_URL is the [URL of the TensorFlow Python package.](https://www.tensorflow.org/install/install_mac#the_url_of_the_tensorflow_python_package)
-    
+  - Keras
+    ```
+    $ sudo pip install keras
+    ```
+  - numpy
+    ```
+    $ sudo pip install numpy
+    ```
+  - opencv
+    ```
+    $ sudo pip install opencv-contrib-python
+    ```
 3. Installation for Ubuntu
-
-    
+  - Tensorflow GPU
+    with pip
+    ```
+    $ sudo pip install -U tensorflow   # Python 2.7
+    $ sudo pip3 install -U tensorflow  # Python 3.n
+    ```
+    with Anaconda
+    1. Create a conda environment named tensorflow to run a version of Python.
+    ```
+    $ conda create -n tensorflow pip python=2.7 # or python=3.3, etc.
+    ```
+    2. Activate the conda environment.
+    ```
+    $ source activate tensorflow
+    ```
+    3. Issue a command of the following format to install TensorFlow inside your conda environment.
+    ```
+    (tensorflow)$ pip install --ignore-installed --upgrade tfBinaryURL
+    ```
+    where tfBinaryURL is the [URL of the TensorFlow Python package](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package).
+  - Keras
+    ```
+    $ sudo pip install keras
+    ```
+  - numpy
+    ```
+    $ sudo pip install numpy
+    ```
+  - opencv
+    ```
+    $ sudo pip install opencv-contrib-python
+    ```
