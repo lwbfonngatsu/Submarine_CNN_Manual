@@ -104,6 +104,7 @@ Submarine CNN installation and manual.
 
 ### Prepare your dataset.
 Dataset: [Download](https://mega.nz/#!5p0HhQqb!igfsGwizA2ePu1pDHxXnfK3WFpgpyuU7rXXAU1GGswk)
+
 Inside your train, test and valid directories should be like.
 
 ![alt text](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/train_inside.png)
