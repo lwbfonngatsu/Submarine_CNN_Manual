@@ -1,5 +1,14 @@
 # Submarine CNN Manual
 Submarine CNN installation and manual.
+
+# You can load trainer scripts now!!!
+## Models available.
+ - VGG16
+ - mobileNet
+ - ResNet50
+ - Inception v3
+ - Xception
+
 ## Train a CNN Model.
 1. Installation for Windows
   - Tensorflow GPU with [CUDA](https://developer.nvidia.com/cuda-downloads).
@@ -115,12 +124,3 @@ it's mean i have 13 classes name nmo, nm1, nm2, nm3, nm4, nm5, nm6, nm7, nm8, nm
 And inside each of your class directory will contain its class datasets.
 
 ![alt text](https://github.com/lwbfonngatsu/Submarine_CNN_Manual/blob/master/class_inside.png)
-
-# You can load trainer scripts now!!!
-## Models available.
- - VGG16
- - mobileNet
- - ResNet50
- - Inception v3
- - Xception
-
